@@ -35,16 +35,16 @@
                 <div class="col-12 col-sm-11 col-md-10 col-lg-7 col-xl-6 col-xxl-5">
                     <div class="cta-card">
                         <div class="total-clients-wrap">
-                            <div class="total-number">
-                                <h3>50+</h3>
+                            <div class="total-number ">
+                                <h3 class="">50+</h3>
                                 <p class="mb-0">Clients satisfaits</p>
                             </div>
-                            <div class="clients-images">
+                            <!-- <div class="clients-images">
                                 <img src="{{ asset('assets/img/bg-img/21.png') }}" alt="">
                                 <img src="{{ asset('assets/img/bg-img/22.png') }}" alt="">
                                 <img src="{{ asset('assets/img/bg-img/23.png') }}" alt="">
                                 <img src="{{ asset('assets/img/bg-img/24.png') }}" alt="">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="cta-stats">
                             <div><h2>50+</h2><p class="mb-0">Clients satisfaits</p></div>
@@ -75,15 +75,15 @@
                             <ul class="about-list ps-0 d-flex flex-column gap-3 list-unstyled mb-5">
                                 <li class="d-flex align-items-center gap-2">
                                     <div class="icon"><i class="ti ti-arrow-right"></i></div>
-                                    <h5 class="mb-0">Created 40+ unique sections with responsiveness.</h5>
+                                    <h5 class="mb-0">Solutions sur mesure : Nous concevons des solutions personnalisées pour répondre précisément à vos besoins.</h5>
                                 </li>
                                 <li class="d-flex align-items-center gap-2">
                                     <div class="icon"><i class="ti ti-arrow-right"></i></div>
-                                    <h5 class="mb-0">You will able to build a new site with an ease.</h5>
+                                    <h5 class="mb-0">Expertise technique : Notre équipe d'experts vous accompagne à chaque étape de votre projet.</h5>
                                 </li>
                                 <li class="d-flex align-items-center gap-2">
                                     <div class="icon"><i class="ti ti-arrow-right"></i></div>
-                                    <h5 class="mb-0">Booster is made for stay ahead from the compitition.</h5>
+                                    <h5 class="mb-0">Innovation continue : Nous restons à la pointe de la technologie pour vous offrir les meilleures solutions.</h5>
                                 </li>
                             </ul>
                             <a class="btn btn-primary" href="{{ url('/#contact') }}">Contactez-nous <i class="ti ti-arrow-up-right"></i></a>
@@ -128,9 +128,9 @@
                 <div class="col-12 col-md-6">
                     <div class="section-heading"><span class="sub-title">Nos Services</span><h2 class="mb-0">Ce que nous faisons</h2></div>
                 </div>
-                <div class="col-12 col-md-5 offset-md-1">
+                <!-- <div class="col-12 col-md-5 offset-md-1">
                     <div class="section-heading"><p class="mb-0">Automatisme (industriel & domotique), Informatique, et Télécommunication pour booster votre productivité et sécuriser vos systèmes.</p></div>
-                </div>
+                </div> -->
             </div>
             <div class="divider-sm"></div>
             <div class="row g-4 g-xl-5">
@@ -166,7 +166,7 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 class="mb-0">IT Management Service</h4>
+                            <h4 class="mb-0">Automatisme</h4>
                         </div>
                         <div class="service-nav-item" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                             <div class="icon">
@@ -188,7 +188,7 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 class="mb-0">UI/UX & Branding Identity</h4>
+                            <h4 class="mb-0">Informatique</h4>
                         </div>
                         <div class="service-nav-item" id="v-pills-contact-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contact" role="tab" aria-controls="v-pills-contact" aria-selected="false">
                             <div class="icon">
@@ -212,7 +212,7 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 class="mb-0">Cyber Security Solutions</h4>
+                            <h4 class="mb-0">Télécommunication</h4>
                         </div>
                     </div>
                 </div>
@@ -220,46 +220,38 @@
                     <div class="tab-content ps-lg-4" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                             <div class="service-tab-content">
-                                <img src="{{ asset('assets/img/bg-img/27.jpg') }}" alt="">
+                                <img src="{{ asset('assets/img/automatisme.jpg') }}" alt="">
                                 <div class="service-tab-card">
-                                    <h4 class="mb-2">Automatisme industriel & domotique</h4>
-                                    <p>Automatisation des processus, intégration des solutions mécaniques/électriques/IT et formation à la maintenance.</p>
-                                    <ul class="d-flex flex-column gap-2 list-unstyled mt-4">
-                                        <li><i class="ti ti-circle-check"></i> Keyword Research</li>
-                                        <li><i class="ti ti-circle-check"></i> One Page Optimization</li>
-                                        <li><i class="ti ti-circle-check"></i> Basic Analytics Reporting</li>
+                                    <h4 class="mb-2">Automatisme</h4>
+                                    <p class="mb-2"><strong>Industriel:</strong></p>
+                                    <ul class="d-flex flex-column gap-2 list-unstyled mt-3">
+                                        <li><i class="ti ti-circle-check"></i> Automatisation des processus de production et/ou de traitement.</li>
+                                        <li><i class="ti ti-circle-check"></i> Intégration des solutions mécaniques, électriques ou informatique.</li>
+                                        <li><i class="ti ti-circle-check"></i> Formation des agents à l'exécution et la maintenance d'un système automatisé ou semi automatisé.</li>
                                     </ul>
-                                    <a class="btn btn-primary" href="#">Read More <i class="ti ti-arrow-up-right"></i></a>
+                                    <p class="mb-2 mt-4"><strong>Domotique:</strong></p>
+                                    <p>Automatisation des habitations.</p>
+                                    <a class="btn btn-primary mt-4" href="#">Read More <i class="ti ti-arrow-up-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                             <div class="service-tab-content">
-                                <img src="{{ asset('assets/img/bg-img/27.jpg') }}" alt="">
+                                <img src="{{ asset('assets/img/informatique.jpg') }}" alt="">
                                 <div class="service-tab-card">
                                     <h4 class="mb-2">Informatique</h4>
-                                    <p>Outils collaboratifs performants pour améliorer l’exécution des tâches et le partage des données.</p>
-                                    <ul class="d-flex flex-column gap-2 list-unstyled mt-4">
-                                        <li><i class="ti ti-circle-check"></i> Keyword Research</li>
-                                        <li><i class="ti ti-circle-check"></i> One Page Optimization</li>
-                                        <li><i class="ti ti-circle-check"></i> Basic Analytics Reporting</li>
-                                    </ul>
-                                    <a class="btn btn-primary" href="#">Read More <i class="ti ti-arrow-up-right"></i></a>
+                                    <p>Propose un service informatique indispensable à tout type d'entreprise, grâce à des outils de plus en plus puissants et performants, permettant d'améliorer considérablement l'exécution des tâches en favorisant la collaboration et le partage des données entre les différentes équipes / services.</p>
+                                    <a class="btn btn-primary mt-4" href="#">Read More <i class="ti ti-arrow-up-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
                             <div class="service-tab-content">
-                                <img src="{{ asset('assets/img/bg-img/27.jpg') }}" alt="">
+                                <img src="{{ asset('assets/img/telecom.jpg') }}" alt="">
                                 <div class="service-tab-card">
                                     <h4 class="mb-2">Télécommunication</h4>
-                                    <p>Fourniture et installation d’équipements réseau (routers, switch…) pour entreprises et particuliers.</p>
-                                    <ul class="d-flex flex-column gap-2 list-unstyled mt-4">
-                                        <li><i class="ti ti-circle-check"></i> Keyword Research</li>
-                                        <li><i class="ti ti-circle-check"></i> One Page Optimization</li>
-                                        <li><i class="ti ti-circle-check"></i> Basic Analytics Reporting</li>
-                                    </ul>
-                                    <a class="btn btn-primary" href="#">Read More <i class="ti ti-arrow-up-right"></i></a>
+                                    <p>Fourniture et/ou installation d'équipements de télécommunication (routers, switch, etc.), essentiellement pour des entités morales (entreprises), mais également pour des particuliers.</p>
+                                    <a class="btn btn-primary mt-4" href="#">Read More <i class="ti ti-arrow-up-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -276,8 +268,8 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-5 col-xl-7">
                     <div class="section-heading text-center">
-                        <span class="sub-title">Working Process</span>
-                        <h2 class="mb-0">Our Approach to Development</h2>
+                        <span class="sub-title">Notre processus de travail</span>
+                        <h2 class="mb-0">Notre Approche</h2>
                     </div>
                 </div>
             </div>
@@ -287,19 +279,19 @@
                     <div class="col-12 col-md-4">
                         <div class="process-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                             <div class="process-thumb"><img src="{{ asset('assets/img/bg-img/13.jpg') }}" alt=""><div class="number">1</div></div>
-                            <div class="process-text"><h5 class="process-title mb-3">Define Requirements</h5><p class="mb-0">Stay at the cutting edge of innovation with our comprehensive coverage of the technological advancements.</p></div>
+                            <div class="process-text"><h5 class="process-title mb-3">Analyse & Conseil</h5><p class="mb-0">Nous commençons par une analyse approfondie de vos besoins pour vous proposer les solutions technologiques les plus adaptées à vos objectifs.</p></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="process-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                             <div class="process-thumb"><img src="{{ asset('assets/img/bg-img/14.jpg') }}" alt=""><div class="number">2</div></div>
-                            <div class="process-text"><h5 class="process-title mb-3">Final Solution</h5><p class="mb-0">Stay at the cutting edge of innovation with our comprehensive coverage of the technological advancements.</p></div>
+                            <div class="process-text"><h5 class="process-title mb-3">Déploiement & Intégration</h5><p class="mb-0">Nos experts déploient et intègrent les nouvelles solutions à votre environnement existant, en minimisant l'impact sur vos opérations.</p></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="process-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
                             <div class="process-thumb"><img src="{{ asset('assets/img/bg-img/15.jpg') }}" alt=""><div class="number">3</div></div>
-                            <div class="process-text"><h5 class="process-title mb-3">Design & Prototyping</h5><p class="mb-0">Stay at the cutting edge of innovation with our comprehensive coverage of the technological advancements.</p></div>
+                            <div class="process-text"><h5 class="process-title mb-3">Formation & Suivi</h5><p class="mb-0">Nous assurons la formation de vos équipes et un suivi rigoureux pour garantir une prise en main optimale et des performances durables.</p></div>
                         </div>
                     </div>
                 </div>
@@ -307,7 +299,7 @@
         </div>
     </section>
 
-    <section class="showcase-section softora-container bg-dark" id="portfolio">
+    {{-- <section class="showcase-section softora-container bg-dark" id="portfolio">
         <div class="divider"></div>
         <div class="container">
             <div class="row softora-filter g-4 g-md-5">
@@ -338,9 +330,9 @@
             </div>
         </div>
         <div class="divider"></div>
-    </section>
+    </section> --}}
 
-    <section class="team-section">
+    <!-- <section class="team-section">
         <div class="divider"></div>
         <div class="container">
             <div class="row g-5 align-items-center">
@@ -359,7 +351,7 @@
             </div>
         </div>
         <div class="divider"></div>
-    </section>
+    </section> -->
 
     <section class="testimonial-section bg-secondary">
         <div class="divider"></div>
@@ -367,7 +359,7 @@
             <div class="row g-5">
                 <div class="col-12 col-lg-4">
                     <div class="h-100 d-flex flex-column justify-content-between">
-                        <div class="testimonial-countdown">
+                        <!-- <div class="testimonial-countdown">
                             <div class="imgs-group mb-4">
                                 <img src="{{ asset('assets/img/bg-img/5.jpg') }}" alt="">
                                 <img src="{{ asset('assets/img/bg-img/6.jpg') }}" alt="">
@@ -375,7 +367,7 @@
                                 <div><span class="counter">10</span>k</div>
                             </div>
                             <h4 class="mb-0">More then 25K clients<br>Reviews</h4>
-                        </div>
+                        </div> -->
                         <div class="swiper-navigation-container mt-5">
                             <div class="testimonial-button-prev"><i class="ti ti-arrow-left"></i></div>
                             <div class="testimonial-button-next"><i class="ti ti-arrow-right"></i></div>
@@ -383,36 +375,40 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-8">
-                    <div class="section-heading"><span class="sub-title">Testimonial</span><h2 class="mb-0">What our Clients<br>Say About us</h2></div>
+                    <div class="section-heading">
+                        <!-- <span class="sub-title">Testimonial</span> -->
+                        <h2 class="mb-0">Ce que nos clients <br>disent de nous</h2></div>
                     <div class="divider-sm"></div>
                     <div class="testimonial-slide">
                         <div class="swiper testimonial-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testimonial-card">
-                                        <div class="testimonial-thumbnail"><img src="{{ asset('assets/img/bg-img/4.jpg') }}" alt=""></div>
+                                        <div class="testimonial-thumbnail"><img src="{{ asset('assets/img/bg-img/4.jpg') }}" alt="">
+                                        </div>
                                         <div class="testimonial-info">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" viewBox="0 0 60 40" fill="none">
                                                 <path d="M58.6207 0C59.2341 0 59.7854 0.424145 59.9513 1.05329C60.1353 1.75286 59.7835 2.48528 59.1324 2.75457C54.8083 4.54586 51.6329 7.61643 49.6735 11.8959C55.6703 13.503 59.9998 19.149 59.9998 25.7143C59.9998 33.5917 53.81 40 46.2018 40C38.5937 40 32.4046 33.5917 32.4046 25.7143C32.3931 25.6061 31.1752 4.30729 58.4116 0.0159988C58.4819 0.00485611 58.5513 0 58.6207 0ZM46.2018 37.1429C52.2879 37.1429 57.2388 32.0159 57.2388 25.7143C57.2388 19.9596 53.0805 15.0879 47.5668 14.3834C47.1463 14.329 46.7727 14.0786 46.5544 13.7033C46.3353 13.328 46.2949 12.8697 46.4452 12.4596C47.5526 9.43157 49.1286 6.86114 51.1588 4.76357C34.3216 10.8573 35.15 25.4416 35.1615 25.6083C35.1656 32.0159 40.1165 37.1429 46.2018 37.1429Z" fill="#601FEB" />
                                                 <path d="M26.2269 0C26.8403 0 27.3916 0.424145 27.5575 1.05329C27.7415 1.75286 27.3897 2.48528 26.7386 2.75457C22.4145 4.54586 19.2391 7.61643 17.2797 11.8959C23.2765 13.503 27.606 19.149 27.606 25.7143C27.606 33.5917 21.4162 40 13.808 40C6.19994 40 0.0107918 33.5917 0.0107918 25.7143C-0.000663757 25.6061 -1.21865 4.30729 26.0178 0.0159988C26.0881 0.00485611 26.1575 0 26.2269 0ZM13.808 37.1429C19.8941 37.1429 24.845 32.0159 24.845 25.7143C24.845 19.9596 20.6867 15.0879 15.173 14.3834C14.7525 14.329 14.3789 14.0786 14.1606 13.7033C13.9415 13.328 13.9011 12.8697 14.0514 12.4596C15.1588 9.43157 16.7348 6.86114 18.765 4.76357C1.92776 10.8573 2.75622 25.4416 2.76768 25.6083C2.77182 32.0159 7.7227 37.1429 13.808 37.1429Z" fill="#601FEB" />
                                             </svg>
-                                            <p class="testimonial-text mt-4">“Working with several word themes and templates the last years only can say this is best in every level use it for my best reviews that I have already are company and review that I have already are all excellent. Not only the design but the are company and the reviews code”</p>
-                                            <h4 class="name">Daniyel karlos</h4>
-                                            <p class="designation mb-0">CEO & Founder</p>
+                                            <p class="testimonial-text mt-4">"Grâce à l'expertise d'ATI Technologies en automatisme, nous avons pu moderniser notre chaîne de production. Le résultat : un gain de productivité de 20% et une nette amélioration de la sécurité pour nos équipes. Leur accompagnement et la formation ont été irréprochables."</p>
+                                            <h4 class="name">Emmanuel Malan</h4>
+                                            <p class="designation mb-0">Directeur de Production</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial-card">
-                                        <div class="testimonial-thumbnail"><img src="{{ asset('assets/img/bg-img/4.jpg') }}" alt=""></div>
+                                        <div class="testimonial-thumbnail"><img src="{{ asset('assets/img/bg-img/4.jpg') }}" alt="">
+                                        </div>
                                         <div class="testimonial-info">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" viewBox="0 0 60 40" fill="none">
                                                 <path d="M58.6207 0C59.2341 0 59.7854 0.424145 59.9513 1.05329C60.1353 1.75286 59.7835 2.48528 59.1324 2.75457C54.8083 4.54586 51.6329 7.61643 49.6735 11.8959C55.6703 13.503 59.9998 19.149 59.9998 25.7143C59.9998 33.5917 53.81 40 46.2018 40C38.5937 40 32.4046 33.5917 32.4046 25.7143C32.3931 25.6061 31.1752 4.30729 58.4116 0.0159988C58.4819 0.00485611 58.5513 0 58.6207 0ZM46.2018 37.1429C52.2879 37.1429 57.2388 32.0159 57.2388 25.7143C57.2388 19.9596 53.0805 15.0879 47.5668 14.3834C47.1463 14.329 46.7727 14.0786 46.5544 13.7033C46.3353 13.328 46.2949 12.8697 46.4452 12.4596C47.5526 9.43157 49.1286 6.86114 51.1588 4.76357C34.3216 10.8573 35.15 25.4416 35.1615 25.6083C35.1656 32.0159 40.1165 37.1429 46.2018 37.1429Z" fill="#601FEB" />
                                                 <path d="M26.2269 0C26.8403 0 27.3916 0.424145 27.5575 1.05329C27.7415 1.75286 27.3897 2.48528 26.7386 2.75457C22.4145 4.54586 19.2391 7.61643 17.2797 11.8959C23.2765 13.503 27.606 19.149 27.606 25.7143C27.606 33.5917 21.4162 40 13.808 40C6.19994 40 0.0107918 33.5917 0.0107918 25.7143C-0.000663757 25.6061 -1.21865 4.30729 26.0178 0.0159988C26.0881 0.00485611 26.1575 0 26.2269 0ZM13.808 37.1429C19.8941 37.1429 24.845 32.0159 24.845 25.7143C24.845 19.9596 20.6867 15.0879 15.173 14.3834C14.7525 14.329 14.3789 14.0786 14.1606 13.7033C13.9415 13.328 13.9011 12.8697 14.0514 12.4596C15.1588 9.43157 16.7348 6.86114 18.765 4.76357C1.92776 10.8573 2.75622 25.4416 2.76768 25.6083C2.77182 32.0159 7.7227 37.1429 13.808 37.1429Z" fill="#601FEB" />
                                             </svg>
-                                            <p class="testimonial-text mt-4">“Working with several word themes and templates the last years only can say this is best in every level use it for my best reviews that I have already are company and review that I have already are all excellent. Not only the design but the are company and the reviews code”</p>
-                                            <h4 class="name">Daniyel karlos</h4>
-                                            <p class="designation mb-0">CEO & Founder</p>
+                                            <p class="testimonial-text mt-4">"La solution informatique et réseau mise en place par ATI a transformé notre manière de travailler. La collaboration entre nos équipes est plus fluide et nos données sont enfin centralisées et sécurisées. Un partenaire fiable et réactif que je recommande vivement."</p>
+                                            <h4 class="name">Irie Emmanuel</h4>
+                                            <p class="designation mb-0">Gérant d'entreprise</p>
                                         </div>
                                     </div>
                                 </div>
@@ -426,21 +422,31 @@
         <div class="divider"></div>
         <div class="trusted-clients-logo">
             <div class="container">
-                <div class="row g-4 align-items-center justify-content-center">
-                    @for ($i = 1; $i <= 6; $i++)
-                        <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
-                            <div class="partner-logo">
-                                <img src="{{ asset("assets/img/partner-img/$i.png") }}" alt="">
-                            </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center">
+                            <h2 class="mb-0">Nos partenaires</h2>
                         </div>
-                    @endfor
+                    </div>
+                </div>
+                <div class="row g-4 align-items-center justify-content-center">
+                    <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+                        <div class="partner-logo">
+                            <img src="{{ asset("assets/img/loxone.png") }}" alt="Loxone">
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+                        <div class="partner-logo">
+                            <img src="{{ asset("assets/img/partenair2.png") }}" alt="SW">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="divider"></div>
     </section>
 
-    <section class="blog-section bg-white">
+    <!-- <section class="blog-section bg-white">
         <div class="divider"></div>
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -471,23 +477,21 @@
             </div>
         </div>
         <div class="divider"></div>
-    </section>
+    </section> -->
 
     <div class="cta-wrapper bg-img" style="background-image: url({{ asset('assets/img/core-img/grid.jpg') }})">
         <div class="divider"></div>
         <div class="container">
             <div class="row g-4 g-xl-5 align-items-center">
                 <div class="col-12 col-lg-6 col-xl-7">
-                    <h2 class="mb-0 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Start Building Your Business Now</h2>
+                    <h2 class="mb-0 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Prêt à transformer votre entreprise ?</h2>
                 </div>
                 <div class="col-12 col-lg-6 col-xl-5">
-                    <p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">Communicate your pricing clearly and transparently to build trust with your customers. Hidden fees or unclear pricing structures can lead to dissatisfaction.</p>
-                    <a href="#" class="btn btn-primary btn-hover-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">Get Started <i class="ti ti-arrow-up-right"></i></a>
+                    <p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">Contactez-nous dès aujourd'hui pour discuter de votre projet. Notre équipe d'experts est prête à vous accompagner et à vous proposer des solutions sur mesure.</p>
+                    <a href="#" class="btn btn-primary btn-hover-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">Demander un devis <i class="ti ti-arrow-up-right"></i></a>
                 </div>
             </div>
         </div>
         <div class="divider"></div>
     </div>
 @endsection
-
-
