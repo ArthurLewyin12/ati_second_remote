@@ -303,7 +303,7 @@
             <br><br>
         </div>
     </section>
-
+<!--
     {{-- <section class="showcase-section softora-container bg-dark" id="portfolio">
         <div class="divider"></div>
         <div class="container">
@@ -335,7 +335,45 @@
             </div>
         </div>
         <div class="divider"></div>
-    </section> --}}
+    </section> --}} -->
+
+    <section class="showcase-section softora-container bg-dark" id="portfolio">
+        <div class="divider"></div>
+        <div class="container">
+            <div class="section-heading text-center">
+                <span class="sub-title">Nos Réalisations</span>
+                <h2 class="mb-0 text-white">Découvrez Nos Projets</h2>
+            </div>
+            <div class="divider-sm"></div>
+            <div class="row softora-filter g-4 g-md-5">
+                <div class="col-12 col-sm-6 filter-item showcase-item">
+                    <div class="showcase-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                        <div class="showcase-thumb"><img src="{{ asset('assets/img/bg-img/16.jpg') }}" alt=""><a href="#" class="btn"><i class="ti ti-arrow-up-right"></i></a></div>
+                        <div class="showcase-content"><p>Automatisme / Industriel</p><h2>Automatisation d'une Ligne de Production Agroalimentaire</h2></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 filter-item showcase-item">
+                    <div class="showcase-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="showcase-thumb"><img src="{{ asset('assets/img/bg-img/17.jpg') }}" alt=""><a href="#" class="btn"><i class="ti ti-arrow-up-right"></i></a></div>
+                        <div class="showcase-content"><p>Informatique / Réseau</p><h2>Mise en Place d'un Réseau Sécurisé pour une PME</h2></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 filter-item showcase-item">
+                    <div class="showcase-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                        <div class="showcase-thumb"><img src="{{ asset('assets/img/bg-img/18.jpg') }}" alt=""><a href="#" class="btn"><i class="ti ti-arrow-up-right"></i></a></div>
+                        <div class="showcase-content"><p>Télécommunication / Infrastructure</p><h2>Installation d'une Infrastructure de Télécommunication</h2></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 filter-item showcase-item">
+                    <div class="showcase-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="showcase-thumb"><img src="{{ asset('assets/img/bg-img/19.jpg') }}" alt=""><a href="#" class="btn"><i class="ti ti-arrow-up-right"></i></a></div>
+                        <div class="showcase-content"><p>Domotique / Résidentiel</p><h2>Système de Domotique pour une Résidence Moderne</h2></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </section>
 
     <!-- <section class="team-section">
         <div class="divider"></div>

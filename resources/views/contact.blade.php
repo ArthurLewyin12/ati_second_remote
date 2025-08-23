@@ -1,17 +1,17 @@
 @extends('layouts.softora')
 
-@section('title', 'Contact - ATI Technologies')
+@section('title', 'Contact - ATI Technologie')
 
 @section('content')
     <!-- Breadcrumb Section -->
-    <div class="breadcrumb-section bg-img" style="background-image: url('{{ asset('assets/img/bg-img/90.jpg') }}');">
+    <div class="breadcrumb-section bg-img" style="background-image: url('{{ asset('assets/img/bg-img/back.png') }}');">
         <div class="container">
             <div class="breadcrumb-content">
                 <div class="divider"></div>
-                <h2>Contact Us</h2>
+                <h2>Contactez-nous</h2>
                 <ul class="list-unstyled">
-                    <li><a href="{{ url('/') }}">Home</a></li>
-                    <li>Contact Us</li>
+                    <li><a href="{{ url('/') }}">Accueil</a></li>
+                    <li>Contact</li>
                 </ul>
             </div>
         </div>
@@ -35,8 +35,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h4>Office Address</h4>
-                            <p class="mb-0">629 Elgin St.Celina,2202</p>
+                            <h4>Adresse</h4>
+                            <p class="mb-0">Rue L43, Cocody - 2 Plateaux - Aghien, Abidjan</p>
                         </div>
                     </div>
                 </div>
@@ -56,8 +56,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h4>Call Us For Support:</h4>
-                            <p class="mb-0">+4800 45 678 900</p>
+                            <h4>Appelez-nous</h4>
+                            <p class="mb-0">+225 27 22 26 38 07</p>
                         </div>
                     </div>
                 </div>
@@ -72,8 +72,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h4>Email Us Anytime:</h4>
-                            <p class="mb-0">contact@example.com</p>
+                            <h4>Envoyez-nous un email</h4>
+                            <p class="mb-0">info@atitechnologie.com</p>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
     <section class="faq-wrapper bg-secondary">
         <!-- Background -->
         <div class="bg-shape">
-            <img src="{{ asset('assets/img/core-img/shape12.png') }}" alt="">
+            <img src="{{ asset('assets/img/home2.png') }}" alt="">
         </div>
         <div class="divider"></div>
 
@@ -96,11 +96,11 @@
                 <!-- Contact Info Card -->
                 <div class="contact-info-card">
                     <div class="section-heading">
-                        <span class="sub-title">Contact Us</span>
-                        <h2 class="mb-0">Let's build an awesome project together</h2>
+                        <span class="sub-title">Contactez-nous</span>
+                        <h2 class="mb-0">Discutons de votre projet</h2>
                     </div>
                     <div class="phone-number-card mt-4">
-                        <img src="{{ asset('assets/img/bg-img/110.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/bg-img/111.jpg') }}" alt="">
                         <div class="d-flex gap-2 align-items-center">
                             <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0p)">
@@ -109,7 +109,7 @@
                                 </g>
                                 <defs><clipPath id="clip0p"><rect width="54" height="54" fill="white"/></clipPath></defs>
                             </svg>
-                            <h4 class="mb-0 text-white">+12 608 (3456) 789</h4>
+                            <h4 class="mb-0 text-white">+225 27 22 26 38 07</h4>
                         </div>
                     </div>
                 </div>
@@ -117,16 +117,28 @@
                 <!-- Contact Form -->
                 <div class="faq-contact-section style-two bg-white">
                     <div class="mb-5">
-                        <h4>Fill The Contact Form</h4>
-                        <p class="mb-0">Feel free to contact with us, we don't spam your email</p>
+                        <h4>Remplissez le formulaire</h4>
+                        <p class="mb-0">Une question ? Un projet ? N'hésitez pas à nous contacter.</p>
                     </div>
                     <form class="faq-contact-form style-two" action="#">
                         <div class="row g-4">
-                            <div class="col-12 col-lg-6"><div class="form-group"><input type="text" class="form-control" placeholder="Your name"></div></div>
-                            <div class="col-12 col-lg-6"><div class="form-group"><input type="text" class="form-control" placeholder="Phone number"></div></div>
-                            <div class="col-12"><div class="form-group"><input type="email" class="form-control" placeholder="Email address"></div></div>
-                            <div class="col-12"><div class="form-group"><textarea class="form-control" placeholder="Write your message"></textarea></div></div>
-                            <div class="col-12"><button type="submit" class="btn btn-primary w-100 mt-3">Send Message</button></div>
+                            <div class="col-12 col-lg-6"><div class="form-group"><input type="text" class="form-control" name="nom" placeholder="Votre nom"></div></div>
+                            <div class="col-12 col-lg-6"><div class="form-group"><input type="text" class="form-control" name="entreprise" placeholder="Votre entreprise (facultatif)"></div></div>
+                            <div class="col-12 col-lg-6"><div class="form-group"><input type="email" class="form-control" name="email" placeholder="Adresse email *" required></div></div>
+                            <div class="col-12 col-lg-6"><div class="form-group"><input type="text" class="form-control" name="telephone" placeholder="Numéro de téléphone (facultatif)"></div></div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <select class="form-select" name="sujet" required>
+                                        <option selected disabled>Sujet de votre message *</option>
+                                        <option value="Automatisme">Automatisme</option>
+                                        <option value="Informatique">Informatique</option>
+                                        <option value="Télécommunication">Télécommunication</option>
+                                        <option value="Autre">Autre</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12"><div class="form-group"><textarea class="form-control" name="message" placeholder="Votre message..."></textarea></div></div>
+                            <div class="col-12"><button type="submit" class="btn btn-primary w-100 mt-3">Envoyer le message</button></div>
                         </div>
                     </form>
                 </div>
@@ -137,7 +149,7 @@
 
     <!-- Maps Section -->
     <div class="maps-section">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d689667.0035819365!2d-90.02137296204438!3d38.72850958573321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4a9faed8ef9%3A0xbe39eaca22bbe05b!2sSt.%20Louis%2C%20MO%2C%20USA!5e0!3m2!1sen!2sbd!4v1745491575147!5m2!1sen!2sbd" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15889.498582939238!2d-3.991893844921874!3d5.358514100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ecf7333c1e39%3A0x75e3a5df04b4e13d!2sII%20Plateaux%20Aghien%2C%20Cocody%2C%20Abidjan!5e0!3m2!1sfr!2sci!4v1678886345678!5m2!1sfr!2sci" loading="lazy"></iframe>
     </div>
 
     <!-- CTA Wrapper -->
@@ -146,16 +158,14 @@
         <div class="container">
             <div class="row g-4 g-xl-5 align-items-center">
                 <div class="col-12 col-lg-6 col-xl-7">
-                    <h2 class="mb-0 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Start Building Your Business Now</h2>
+                    <h2 class="mb-0 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Prêt à transformer votre entreprise ?</h2>
                 </div>
                 <div class="col-12 col-lg-6 col-xl-5">
-                    <p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">Communicate your pricing clearly and transparently to build trust with your customers. Hidden fees or unclear pricing structures can lead to dissatisfaction.</p>
-                    <a href="pricing.html" class="btn btn-primary btn-hover-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">Get Started <i class="ti ti-arrow-up-right"></i></a>
+                    <p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">Contactez-nous dès aujourd'hui pour discuter de votre projet. Notre équipe d'experts est prête à vous accompagner et à vous proposer des solutions sur mesure.</p>
+                    <a href="#" class="btn btn-primary btn-hover-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">Demander un devis <i class="ti ti-arrow-up-right"></i></a>
                 </div>
             </div>
         </div>
         <div class="divider"></div>
     </div>
 @endsection
-
-
