@@ -86,7 +86,7 @@
                     <ul class="navbar-nav navbar-nav-scroll">
                         <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Accueil</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/services') }}">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ url('/#portfolio') }}">À propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/#portfolio') }}">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/#support') }}">Support</a></li>
                     </ul>
 
@@ -171,7 +171,7 @@
                     <div class="col-12 col-md-6">
                         <div class="footer-bottom-nav">
                             <a href="{{ url('/services') }}">Services</a>
-                            <a href="{{ url('/#portfolio') }}">À propos</a>
+                            <a href="{{ url('/#portfolio') }}">Portfolio</a>
                             <a href="{{ url('/contact') }}">Contact</a>
                         </div>
                     </div>
