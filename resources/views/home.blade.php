@@ -12,11 +12,11 @@
                         <h2 class="mb-0 wow fadeInUp text-white" data-wow-duration="1000ms" data-wow-delay="400ms">LA TECHNOLOGIE À
                             <span>VOTRE SERVICE</span>
                         </h2>
-                        <ul class="mt-4 text-white">
+                        {{-- <ul class="mt-4 text-white">
                             <li>Automatiser vos actions</li>
                             <li>Moderniser votre entreprise</li>
                             <li>Informatiser vos systèmes</li>
-                        </ul>
+                        </ul> --}}
                     </div>
                     <div class="col-12 col-md-6 col-xl-5 offset-xl-1 col-xxl-4 offset-xxl-1">
                         <p class="text-white wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">ATI Technologies est spécialisée dans l'Automatisme, la Télécommunication et l'Informatique. Nous fournissons des solutions adaptées aux entreprises, industriels et particuliers.</p>
@@ -39,12 +39,13 @@
                                 <h3 class="">50+</h3>
                                 <p class="mb-0">Clients satisfaits</p>
                             </div>
-                            <!-- <div class="clients-images">
-                                <img src="{{ asset('assets/img/bg-img/21.png') }}" alt="">
-                                <img src="{{ asset('assets/img/bg-img/22.png') }}" alt="">
-                                <img src="{{ asset('assets/img/bg-img/23.png') }}" alt="">
-                                <img src="{{ asset('assets/img/bg-img/24.png') }}" alt="">
-                            </div> -->
+                            <div class="clients-images">
+                                <img src="{{ asset('assets/img/loxone.png') }}"  alt="">
+                                <img src="{{ asset('assets/img/partenair2.png') }}" alt="">
+                                <img src="{{ asset('assets/img/loxone.png') }}"  alt="">
+                                <img src="{{ asset('assets/img/partenair2.png') }}" alt="">
+
+                            </div>
                         </div>
                         <div class="cta-stats">
                             <div><h2>50+</h2><p class="mb-0">Clients satisfaits</p></div>
@@ -71,19 +72,22 @@
                         <div class="section-heading">
                             <span class="sub-title">Bienvenue à ATI TECHNOLOGIES</span>
                             <h2 class="mb-4">À Votre Service</h2>
-                            <p class="mb-5">ATI Technologie fournit des solutions adaptées aux besoins des entreprises, des industriels et des particuliers. Nous assurons la rénovation et la transition vers des systèmes automatisés.</p>
-                            <ul class="about-list ps-0 d-flex flex-column gap-3 list-unstyled mb-5">
+                            <p class="mb-5">ATI Technologies est spécialisée dans l'Automatisme , la Télécommunication et l'Informatique.
+                                ATI Technologie fournit des solutions adaptées aux besoins des entreprises, des industriels, et des particuliers.
+                                Elle assure également dans les plus brefs délais la rénovation et la transition de système informatique et de télécommunication vers des systèmes automatisés.</p>
+                                <p class="mb-5">Nous existons depuis 2021 et nous sommes basés à Abidjan, Côte d'Ivoire.</p>
+                                <ul class="about-list ps-0 d-flex flex-column gap-3 list-unstyled mb-5">
                                 <li class="d-flex align-items-center gap-2">
                                     <div class="icon"><i class="ti ti-arrow-right"></i></div>
-                                    <h5 class="mb-0">Solutions sur mesure : Nous concevons des solutions personnalisées pour répondre précisément à vos besoins.</h5>
+                                    <h5 class="mb-0">Automatisation des processus de production et/ou de traitement.</h5>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                        <div class="icon"><i class="ti ti-arrow-right"></i></div>
+                                        <h5 class="mb-0">Intégration des solutions mécaniques, électriques ou informatique.</h5>
                                 </li>
                                 <li class="d-flex align-items-center gap-2">
                                     <div class="icon"><i class="ti ti-arrow-right"></i></div>
-                                    <h5 class="mb-0">Expertise technique : Notre équipe d'experts vous accompagne à chaque étape de votre projet.</h5>
-                                </li>
-                                <li class="d-flex align-items-center gap-2">
-                                    <div class="icon"><i class="ti ti-arrow-right"></i></div>
-                                    <h5 class="mb-0">Innovation continue : Nous restons à la pointe de la technologie pour vous offrir les meilleures solutions.</h5>
+                                    <h5 class="mb-0">Modernisation et/ou rénovation de système informatique et de télécommunication.</h5>
                                 </li>
                             </ul>
                             <a class="btn btn-primary" href="{{ url('/#contact') }}">Contactez-nous <i class="ti ti-arrow-up-right"></i></a>
@@ -91,14 +95,14 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="about-video-content wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-                        <img src="{{ asset('assets/img/bg-img/25.jpg') }}" alt="">
+                    {{-- <div class="about-video-content wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <img src="{{ asset('assets/img/home2.png') }}" alt="">
                         <div class="play-video-btn video-btn" data-video="https://youtu.be/4GUFkrHvZdE">
                             <div class="icon"><i class="ti ti-player-play-filled"></i></div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="about-images d-flex px-5 mt-5 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-                        <div><img class="w-100" src="{{ asset('assets/img/bg-img/26.jpg') }}" alt=""></div>
+                        <div><img class="w-100" src="{{ asset('assets/img/home1.png') }}" alt=""></div>
                         <div>
                             <svg class="rotatingImage" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
                                 <path d="M35 0L46.1369 23.8631L70 35L46.1369 46.1369L35 70L23.8631 46.1369L0 35L23.8631 23.8631L35 0Z" fill="#222222" />
@@ -128,9 +132,9 @@
                 <div class="col-12 col-md-6">
                     <div class="section-heading"><span class="sub-title">Nos Services</span><h2 class="mb-0">Ce que nous faisons</h2></div>
                 </div>
-                <!-- <div class="col-12 col-md-5 offset-md-1">
+                <div class="col-12 col-md-5 offset-md-1">
                     <div class="section-heading"><p class="mb-0">Automatisme (industriel & domotique), Informatique, et Télécommunication pour booster votre productivité et sécuriser vos systèmes.</p></div>
-                </div> -->
+                </div>
             </div>
             <div class="divider-sm"></div>
             <div class="row g-4 g-xl-5">
@@ -296,6 +300,7 @@
                     </div>
                 </div>
             </div>
+            <br><br>
         </div>
     </section>
 
@@ -359,15 +364,15 @@
             <div class="row g-5">
                 <div class="col-12 col-lg-4">
                     <div class="h-100 d-flex flex-column justify-content-between">
-                        <!-- <div class="testimonial-countdown">
+                         <div class="testimonial-countdown">
                             <div class="imgs-group mb-4">
                                 <img src="{{ asset('assets/img/bg-img/5.jpg') }}" alt="">
                                 <img src="{{ asset('assets/img/bg-img/6.jpg') }}" alt="">
                                 <img src="{{ asset('assets/img/bg-img/7.jpg') }}" alt="">
                                 <div><span class="counter">10</span>k</div>
                             </div>
-                            <h4 class="mb-0">More then 25K clients<br>Reviews</h4>
-                        </div> -->
+                            <h4 class="mb-0">Des clients Satisfaits</h4>
+                        </div>
                         <div class="swiper-navigation-container mt-5">
                             <div class="testimonial-button-prev"><i class="ti ti-arrow-left"></i></div>
                             <div class="testimonial-button-next"><i class="ti ti-arrow-right"></i></div>
@@ -422,13 +427,13 @@
         <div class="divider"></div>
         <div class="trusted-clients-logo">
             <div class="container">
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-12">
                         <div class="section-heading text-center">
                             <h2 class="mb-0">Nos partenaires</h2>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="row g-4 align-items-center justify-content-center">
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                         <div class="partner-logo">
